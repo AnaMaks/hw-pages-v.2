@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Exo+2:ital,wght@1,500&family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body class="bg-lightbeige Ln-height f-comfortaa fw-300">
+    <header class="header bg-bluegreen">
+      <div class="container">
+        <ul class="list d-flex d-flex-wrp bg-bluegreen f-comfortaa fw-500">
+          <li>
+            <a class="d-block tx-decor fc-pumpkin" href="../index.html">Home</a>
+          </li>
+          <li>
+            <a class="d-block tx-decor fc-pumpkin" href="01-position.html">Gallery</a>
+          </li>
+          <li class="p-relative">
+            <a class="d-block tx-decor fc-pumpkin" href="#">Menu</a>
+            
+            <ul class="list-second f-raleway fw-400 bg-bluegreen">
+              <li>
+                <a class="d-block tx-decor fc-pumpkin" href="02-tables.html">Table</a>
+              </li>
+              <li>
+                <a class="d-block tx-decor fc-pumpkin" href="03-inline-block.html">Inline block</a>
+              </li>
+              <li>
+                <a class="d-block tx-decor fc-pumpkin" href="04-float.html">Float</a>
+              </li>
+              <li>
+                <a class="d-block tx-decor fc-pumpkin" href="05-flex-layout.html">Layouts</a>
+                
+                <ul class="list-to-left d-flex d-flex-wrp  bg-bluegreen f-exo fw-500">
+                  <li>
+                    <a class="d-block tx-decor fc-pumpkin" href="06-flex.html">Flex</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="container">
+        <table class="table-body t-border t-base-green">
+        <caption class="table-title">
+          Таблиця Мондріана
+        </caption>
+        <tbody>
+          <tr>
+            <td colspan="2" class="t-grey t-border"></td>
+            <td class="t-border"></td>
+            <td class="t-border"></td>
+            <td class="t-border"></td>
+            <td rowspan="3" class="t-brightgreen t-border"></td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="t-green t-border"></td>
+            <td class="t-border"></td>
+            <td colspan="3" rowspan="2" class="t-yellow t-border"></td>
+          </tr>
+          <tr>
+            <td class="t-border"></td>
+          </tr>
+          <tr>
+            <td colspan="3" rowspan="2" class="t-blue t-border"></td>
+            <td class="t-border"></td>
+            <td class="t-border"></td>
+            <td rowspan="2" class="t-green t-border"></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="t-grey t-border"></td>
+          </tr>
+        </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="footer txt-al-cntr bg-bluegreen fc-pumpkin fw-400">
+      <div class="container">
+        <p>© 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
