@@ -295,11 +295,11 @@ main {
   align-items: baseline;
 }
 .list li a {
-  padding: 15px 25px;
+  padding: 15px 20px 15px 55px;
   white-space: nowrap;
 }
 .cl-a-for-p {
-  padding: 15px 25px;
+  padding: 15px 40px 15px 15px;
   white-space: nowrap;
 }
 .list > li:hover > .list-second {
@@ -320,6 +320,22 @@ main {
 }
 li:hover > .list-to-left {
   display: block;
+}
+.home-ic {
+  background: url('../images/icon-comp-home.svg') no-repeat 15px 14px/26px;
+  /* color: #ff5975; */
+}
+.gallery-ic {
+  background: url('../images/icon-gallery-new.svg') no-repeat 15px 14px/26px;
+  /* /* color: #ff5975; */
+}
+.arrowdown-ic {
+  background: url('../images/icon-arrow-down-new.svg') no-repeat right 14px/26px;
+  /* /* color: #ff5975; */ 
+}
+.arrowleft-ic {
+  background: url('../images/icon-arrow-left-new.svg') no-repeat 15px 14px/26px;
+  /* /* color: #ff5975; */ 
 }
 
 /* ____MAIN____ */
@@ -614,10 +630,33 @@ li:hover > .list-to-left {
 /* ___ */
 
 .footer {
-  /* position: absolute; */
   width: 100%;
-  /* left: 0; */
-  /* bottom: 0; */
-  padding: 20px 0;
+  padding: 15px 0;
   margin-top: 50px;
+}
+.footer-contacts {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.contacts-instagram {
+  background: url('../images/icon-instagram-alt.svg') no-repeat center/26px;
+  padding: 15px;
+  color: #ff5975;
+}
+.contacts-facebook {
+  background: url('../images/icon-facebook-alt.svg') no-repeat center/26px;
+  padding: 15px;
+  color: #ff5975;
+}
+.contacts-twitter {
+  background: url('../images/icon-twitter-alt.svg') no-repeat center/26px;
+  padding: 15px;
+  color: #ff5975;
+}
+.contacts-linkedin {
+  background: url('../images/icon-linkedin-alt.svg') no-repeat center/26px;
+  padding: 15px;
+  color: #ff5975;
 }
