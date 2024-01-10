@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Position Gallery</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Gallery</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
 
 <body class="f-comfortaa fw-300 Ln-height bg-sienna">
-  <div class="wrapper p-relative">
+  <div class="wrapper d-flex">
     <header class="header bg-chocolate">
       <div class="container">
         <ul class="list d-flex d-flex-wrp bg-chocolate f-comfortaa fw-600">
           <li>
-            <a class="home-ic d-block tx-decor fc-negroni" href="../index.html">Home</a>
+            <a class="list-link d-block tx-decor fc-negroni" href="../index.html">
+              <svg class="icons iconfill-negroni">
+                <use href="../images/sprite.svg#icon-home"></use>
+              </svg>
+              Home
+            </a>
           </li>
           <li>
-            <a class="gallery-ic d-block tx-decor fc-negroni" href="01-position.html">Gallery</a>
+            <a class="list-link d-block tx-decor fc-negroni" href="01-position.html">
+              <svg class="icons iconfill-negroni">
+                <use href="../images/sprite.svg#icon-gallery"></use>
+              </svg>
+              Gallery
+            </a>
           </li>
-          <li class="p-relative">
-            <p class="arrowdown-ic d-block tx-decor fc-negroni cl-a-for-p">Homeworks</p>
+          <li class="p-relative d-flex">
+            <a class="list-link d-block tx-decor fc-negroni list-arrowdwn" href="#">
+              Homeworks
+              <svg class="icons iconfill-negroni">
+                <use href="../images/sprite.svg#icon-arrowdwn"></use>
+              </svg>
+            </a>
                         
             <ul class="list-second f-raleway fw-400 bg-chocolate">
               <li>
-                <a class="d-block tx-decor fc-negroni" href="02-tables.html">Table</a>
+                <a class="list-link d-block tx-decor fc-negroni" href="02-tables.html">Table</a>
               </li>
               <li>
-                <a class="d-block tx-decor fc-negroni" href="03-inline-block.html">Inline block</a>
+                <a class="list-link d-block tx-decor fc-negroni" href="03-inline-block.html">Inline block</a>
               </li>
               <li>
-                <a class="d-block tx-decor fc-negroni" href="04-float.html">Float</a>
+                <a class="list-link d-block tx-decor fc-negroni" href="04-float.html">Float</a>
               </li>
               <li class="p-relative">
-                <a class="arrowleft-ic d-block tx-decor fc-negroni" href="05-flex-layout.html">Layouts</a>
+                <a class="list-link d-block tx-decor fc-negroni" href="05-flex-layout.html">
+                  <svg class="icons iconfill-negroni">
+                    <use href="../images/sprite.svg#icon-arrowlft"></use>
+                  </svg>Layouts</a>
                 
-                <ul class="list-to-left d-flex d-flex-wrp  bg-chocolate f-exo fw-600">
+                <ul class="list-to-left d-flex d-flex-wrp bg-chocolate f-exo fw-600">
                   <li>
-                    <a class="d-block tx-decor fc-negroni" href="06-flex.html">Flex</a>
+                    <a class="list-link d-block tx-decor fc-negroni" href="06-flex.html">Flex</a>
                   </li>
                 </ul>
               </li>
@@ -100,21 +118,37 @@
       </section>
     </main>
   
-    <footer class="footer txt-al-cntr bg-chocolate fc-white">
+    <footer class="footer txt-al-cntr bg-chocolate fc-negroni">
       <div class="container">
         <div>
-          <ul class="footer-contacts d-flex d-flex-wrp">
+          <ul class="footer-contacts d-flex">
             <li>
-              <a class="contacts-instagram d-block" href="#"></a>
+              <a class="d-block fc-negroni" href="#">
+                <svg class="icons icon-brd-rad iconfill-negroni">
+                  <use href="../images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a class="contacts-facebook d-block" href="#"></a>
+              <a class="d-block fc-negroni" href="#">
+                <svg class="icons icon-brd-rad iconfill-negroni">
+                  <use href="../images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a class="contacts-twitter d-block" href="#"></a>
+              <a class="d-block fc-negroni" href="#">
+                <svg class="icons icon-brd-rad iconfill-negroni">
+                  <use href="../images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a class="contacts-linkedin d-block" href="#"></a>
+              <a class="d-block fc-negroni" href="#">
+                <svg class="icons icon-brd-rad iconfill-negroni">
+                  <use href="../images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>

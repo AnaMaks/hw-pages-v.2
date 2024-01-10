@@ -7,36 +7,116 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
 
-  <body class="f-comfortaa fw-300 fc-cream Ln-height ">
-    <div class="wrapper p-relative">
-      <header class="header bg-dark">
+  <body class="f-comfortaa fw-300 Ln-height fc-cream">
+    
+    <aside class="sidenav">
+      <div>
+        <ul>
+          <li>
+            <a class="sidenav-link tx-decor d-flex" href="#">
+              <span class="diamond">
+                <svg class="sidenav-icons">
+                  <use href="/images/sprite.svg#mail"></use>
+                </svg>
+              </span>              
+              <span class="sidenav-txt fw-900">Email me</span></a>
+          </li>
+          <li>
+            <a class="sidenav-link tx-decor d-flex" href="#">
+              <span class="diamond">
+                <svg class="sidenav-icons">
+                  <use href="/images/sprite.svg#downloads"></use>
+                </svg>
+              </span>
+              <span class="sidenav-txt fw-900">Downloads</span></a>
+          </li>
+          <li>
+            <a class="sidenav-link tx-decor d-flex" href="#">
+              <span class="diamond">
+                <svg class="sidenav-icons icon-brd-rad">
+                  <use href="/images/sprite.svg#bookmarks"></use>
+                </svg>
+              </span>
+              <span class="sidenav-txt fw-900">Bookmarks</span></a>
+          </li>
+          <li>
+            <a class="sidenav-link tx-decor d-flex" href="#">
+              <span class="diamond">
+                <svg class="sidenav-icons icon-brd-rad">
+                  <use href="/images/sprite.svg#statistics"></use>
+                </svg>
+              </span>
+              <span class="sidenav-txt fw-900">Statistics</span></a>
+          </li>
+          <li>
+            <a class="sidenav-link tx-decor d-flex" href="#">
+              <span class="diamond">
+                <svg class="sidenav-icons icon-brd-rad">
+                  <use href="/images/sprite.svg#sharelink"></use>
+                </svg>
+              </span>
+              <span class="sidenav-txt fw-900">Share</span></a>
+          </li>
+          <li>
+            <a class="sidenav-link tx-decor d-flex" href="#">
+              <span class="diamond">
+                <svg class="sidenav-icons icon-brd-rad">
+                  <use href="/images/sprite.svg#mobile"></use>
+                </svg>
+              </span>
+              <span class="sidenav-txt fw-900">Mobile version</span></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="wrapper d-flex">
+      <header class="header p-relative bg-dark">
         <div class="container">
           <ul class="list d-flex d-flex-wrp bg-dark f-comfortaa fw-600">
             <li>
-              <a class="home-ic d-block tx-decor fc-berry" href="index.html">Home</a>
+              <a class="list-link d-block tx-decor fc-berry link-berry" href="index.html">
+                <svg class="icons iconfill-berry">
+                  <use href="images/sprite.svg#icon-home"></use>
+                </svg>
+                Home
+              </a>
             </li>
             <li>
-              <a class="gallery-ic d-block tx-decor fc-berry" href="pages/01-position.html">Gallery</a>
+              <a class="list-link d-block tx-decor fc-berry link-berry" href="pages/01-position.html">
+                <svg class="icons iconfill-berry">
+                  <use href="images/sprite.svg#icon-gallery"></use>
+                </svg>
+                Gallery
+              </a>
             </li>
-            <li class="p-relative">
-              <p class="arrowdown-ic d-block tx-decor fc-berry cl-a-for-p">Homeworks</p>
+            <li class="p-relative d-flex">
+              <a class="list-link d-block tx-decor fc-berry list-arrowdwn link-berry" href="#">
+                Homeworks
+                <svg class="icons iconfill-berry">
+                  <use href="images/sprite.svg#icon-arrowdwn"></use>
+                </svg>
+              </a>
               
               <ul class="list-second bg-dark f-raleway fw-400">
                 <li>
-                  <a class="d-block tx-decor fc-berry" href="pages/02-tables.html">Table</a>
+                  <a class="list-link d-block tx-decor fc-berry link-berry" href="pages/02-tables.html">Table</a>
                 </li>
                 <li>
-                  <a class="d-block tx-decor fc-berry" href="pages/03-inline-block.html">Inline block</a>
+                  <a class="list-link d-block tx-decor fc-berry link-berry" href="pages/03-inline-block.html">Inline block</a>
                 </li>
                 <li>
-                  <a class="d-block tx-decor fc-berry" href="pages/04-float.html">Float</a>
+                  <a class="list-link d-block tx-decor fc-berry link-berry" href="pages/04-float.html">Float</a>
                 </li>
                 <li class="p-relative">
-                  <a class="arrowleft-ic d-block tx-decor fc-berry" href="pages/05-flex-layout.html">Layouts</a>
+                  <a class="list-link d-block tx-decor fc-berry link-berry" href="pages/05-flex-layout.html">
+                    <svg class="icons iconfill-berry ">
+                      <use href="images/sprite.svg#icon-arrowlft"></use>
+                    </svg>Layouts</a>
 
                   <ul class="list-to-left d-flex d-flex-wrp bg-dark f-exo fw-600">
                     <li>
-                      <a class="d-block tx-decor fc-berry" href="pages/06-flex.html">Flex</a>
+                      <a class="list-link d-block tx-decor fc-berry link-berry" href="pages/06-flex.html">Flex</a>
                     </li>
                   </ul>
                 </li>
@@ -47,7 +127,7 @@
         </div>
       </header>
   
-      <main>
+      <main class="d-flex main">
         <section class="container content-box">
           <div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -61,18 +141,34 @@
       <footer class="footer txt-al-cntr bg-dark fc-berry">
         <div class="container">
           <div>
-            <ul class="footer-contacts d-flex d-flex-wrp">
+            <ul class="footer-contacts d-flex">
               <li>
-                <a class="contacts-instagram d-block" href="#"></a>
+                <a class="d-block fc-berry link-berry" href="#">
+                  <svg class="icons icon-brd-rad iconfill-berry">
+                    <use href="images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a class="contacts-facebook d-block" href="#"></a>
+                <a class="d-block fc-berry link-berry" href="#">
+                  <svg class="icons icon-brd-rad iconfill-berry">
+                    <use href="images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a class="contacts-twitter d-block" href="#"></a>
+                <a class="d-block fc-berry link-berry" href="#">
+                  <svg class="icons icon-brd-rad iconfill-berry">
+                    <use href="images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a class="contacts-linkedin d-block" href="#"></a>
+                <a class="d-block fc-berry link-berry" href="#">
+                  <svg class="icons icon-brd-rad iconfill-berry">
+                    <use href="images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
